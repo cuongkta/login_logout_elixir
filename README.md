@@ -1,7 +1,7 @@
 
 # Blog
 
-1. We have to crete the database firt. check in config 
+1. We have to crete the database first. check in config /config/dev.exs
 2. run 
 `mix ecto.migrate` to create table 
 
