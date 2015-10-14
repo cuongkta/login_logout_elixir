@@ -1,0 +1,22 @@
+<h2>Listing posts</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th>Password</th>
+
+
+    </tr>
+  </thead>
+  <tbody>
+<%= for user <- @users do %>
+    <tr>
+      <td><%= user.email %></td>
+      <td><%= user.crypted_password %></td>
+
+
+    </tr>
+<% end %>
+  </tbody>
+</table>
